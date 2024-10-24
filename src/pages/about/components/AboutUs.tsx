@@ -4,9 +4,9 @@ import Image from 'next/image'
 const aboutData = {
   title: "About Us",
   imageSrc: "/images/about.jpg",
-  imageAlt: "Zipzap Logistics",
+  imageAlt: "FALCON Logistics",
   paragraphs: [
-    "Zipzap logistics has grown from a small local carrier to a nationwide logistics. Our journey has been marked by significant milestones and continuous improvement, always aiming to provide better service to our clients. Today, we are proud to be a leader in the road freight transport industry, known for our reliability and customer-centric approach.",
+    "FALCON logistics has grown from a small local carrier to a nationwide logistics. Our journey has been marked by significant milestones and continuous improvement, always aiming to provide better service to our clients. Today, we are proud to be a leader in the road freight transport industry, known for our reliability and customer-centric approach.",
     "Your trusted partner in road freight transport. We are a dedicated team of professionals committed to providing reliable, efficient, and cost-effective transportation solutions."
   ]
 }

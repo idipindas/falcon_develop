@@ -3,13 +3,13 @@ import React from "react";
 const footerData = [
   {
     type: "logo",
-    logo: "/images/logo.webp",
+    logo: "/images/logo_full.png",
     socialIcons: [
-      { src: "/images/instagrams.svg", alt: "Instagram" },
-      { src: "/images/fb.svg", alt: "Facebook" },
-      { src: "/images/linkdn.svg", alt: "LinkedIn" }
+      { src: "/images/instagrams.svg", alt: "Instagram",link:'#' },
+      { src: "/images/fb.svg", alt: "Facebook",link:'#' },
+      { src: "/images/linkdn.svg", alt: "LinkedIn",link:'#' }
     ],
-    copyright: "All Rights Reserved © 2024 Qode Interactive"
+    copyright: "All Rights Reserved © 2024 Das&co "
   },
   {
     title: "Our Division",
@@ -42,7 +42,9 @@ const Footer = () => {
               <img src={section.logo} alt="Logo" className="mb-4 w-24 sm:w-32" />
               <div className="flex space-x-4 mb-4">
                 {section.socialIcons.map((icon, iconIndex) => (
+                  <a href={icon?.link}>
                   <img key={iconIndex} src={icon.src} alt={icon.alt} className="w-5 h-5 sm:w-6 sm:h-6" />
+                  </a>
                 ))}
               </div>
               <p className="text-xs sm:text-sm text-gray-400 text-center sm:text-left">

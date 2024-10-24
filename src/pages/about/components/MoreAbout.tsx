@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const moreAboutData = {
   title: "More About",
-  companyName: "ZIPZAP",
-  description: "Welcome to the world of ZIPZAP, where you can explore the journey that has shaped our success today. Dive into our key figures, global reach, and the milestones that define our identity.",
+  companyName: "FALCON",
+  description: "Welcome to the world of FALCON, where you can explore the journey that has shaped our success today. Dive into our key figures, global reach, and the milestones that define our identity.",
   imageSrc: "/images/about1.webp",
-  imageAlt: "About ZIPZAP"
+  imageAlt: "About FALCON"
 }
 
 function MoreAbout() {

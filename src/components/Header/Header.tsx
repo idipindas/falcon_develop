@@ -17,8 +17,10 @@ const Header = () => {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/services", label: "Services" },
-    { href: "/contact", label: "Contact" },
     { href: "/industries", label: "Industries" },
+    { href: "/vehicle", label: "Vehicle" },
+
+    { href: "/contact", label: "Contact" },
 
 
   ];
@@ -38,7 +40,7 @@ const Header = () => {
 
         {/* Navigation Links */}
         <nav className="hidden md:flex">
-          <ul className="flex space-x-28">
+          <ul className="flex space-x-20">
             {navItems.map((item) => (
               <li key={item.href}>
                 <Link
