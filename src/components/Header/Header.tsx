@@ -1,7 +1,7 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { usePathname } from 'next/navigation';
+import { usePathname } from "next/navigation";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import Image from "next/image";
@@ -18,18 +18,29 @@ const Header = () => {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/services", label: "Services" },
+    { href: "/industries", label: "Industries" },
+    { href: "/vehicle", label: "Vehicle" },
+
     { href: "/contact", label: "Contact" },
   ];
 
-  const isHomePage = pathname === '/';
-  const textColor = isHomePage ? 'text-white' : 'text-black';
+  const isHomePage = pathname === "/";
+  const textColor = isHomePage ? "text-white" : "text-black";
 
   return (
-    <header className={`absolute top-0 left-0 w-full ${textColor} py-4 shadow-lg z-10 border-b-2`}>
+    <header
+      className={`absolute top-0 left-0 w-full ${textColor} py-4 shadow-lg z-10 border-b-2`}
+    >
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Logo */}
         <div className="text-2xl font-bold">
-          <Image width={100} height={100} src="/images/logo.webp" alt="Logo" className="h-10" />
+          <Image
+            width={100}
+            height={100}
+            src="/images/logo.webp"
+            alt="Logo"
+            className="h-10"
+          />
         </div>
 
         {/* Navigation Links */}
@@ -37,7 +48,10 @@ const Header = () => {
           <ul className="flex space-x-28">
             {navItems.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className={`hover:underline ${textColor}`}>
+                <Link
+                  href={item.href}
+                  className={`hover:underline ${textColor}`}
+                >
                   {item.label}
                 </Link>
               </li>
