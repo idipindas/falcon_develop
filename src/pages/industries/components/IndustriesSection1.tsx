@@ -14,7 +14,7 @@ const servicesData = [
   },
 ];
 
-const PrimarySection2 = () => {
+const IndustriesSection1 = () => {
   return (
     <div className="bg-white py-16 mt-16">
       <div className="container mx-auto px-4">
@@ -51,4 +51,4 @@ const PrimarySection2 = () => {
   );
 };
 
-export default PrimarySection2;
+export default IndustriesSection1;
