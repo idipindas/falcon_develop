@@ -1,12 +1,12 @@
 import React from 'react';
-import PrimarySection from './components/PrimarySection';
 import SecondarySection from './components/SecondarySection';
 import IndustriesCard from './components/IndustriesCard';
+import PrimarySection2 from './components/PrimarySection';
 
 const Industries = () => {
     return (
         <div>
-            <PrimarySection/>
+            <PrimarySection2/>
             <SecondarySection/>
             <IndustriesCard/>
         </div>
