@@ -1,7 +1,7 @@
 import React from 'react';
 import SecondarySection from './components/SecondarySection';
 import IndustriesCard from './components/IndustriesCard';
-import PrimarySection2 from './components/PrimarySection';
+import PrimarySection2 from './components/PrimarySection2';
 
 const Industries = () => {
     return (
