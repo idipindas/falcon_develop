@@ -37,7 +37,9 @@ const IndustriesCard = () => {
              <div className="max-w-sm mx-auto p-4 bg-white shadow-md rounded-lg">
       <div className="flex justify-center items-center mb-4">
         <div className="relative">
-          <img
+          <Image
+          height={500}
+          width={500}
             src={item.image}
             alt="Ecommerce"
             className="w-45 h-40"
