@@ -19,10 +19,10 @@ function Landing() {
       <SectionThree />
       <SectionFour />
       <SectionFive />
-      <SectionSix />
+      {/* <SectionSix /> */}
       <SectionSeven />
       <SectionEight />
-      <SectionNine />
+      {/* <SectionNine /> */}
     </div>
   );
 }

@@ -37,9 +37,9 @@ const Header = () => {
           <Image
             width={100}
             height={100}
-            src="/images/logo.webp"
+            src="/images/logo_full.png"
             alt="Logo"
-            className="h-10"
+            className="h-20"
           />
         </div>
 

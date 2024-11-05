@@ -6,7 +6,7 @@ const servicesData = [
   {
     title: "Our Logistics",
     subtitle: "Services",
-    description: "Welcome to the world of ZIPZAP, where you can explore the journey that has shaped our success today. Dive into our key figures, global reach, and the milestones that define our identity.",
+    description: "Welcome to the world of FALCON, where you can explore the journey that has shaped our success today. Dive into our key figures, global reach, and the milestones that define our identity.",
     imageSrc: "/images/Services1.webp",
     imageAlt: "Our Logistics Services",
     buttonText: "View More"

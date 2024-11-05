@@ -47,16 +47,16 @@ function SectionEight() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="bg-[#0f313a] flex flex-col lg:flex-row">
+    <section ref={sectionRef} className="bg-[#fffd] flex flex-col lg:flex-row">
       {/* Text Section */}
       <div className="w-full lg:w-1/2 p-4 lg:pr-8">
         <div className="space-y-6">
           {timelineData.map((item, index) => (
             <div
               key={index}
-              className="border-white pb-6 w-full md:w-[40rem] mt-10 lg:mt-20 px-4 lg:pl-32"
+              className="border-black pb-6 w-full md:w-[40rem] mt-10 lg:mt-20 px-4 lg:pl-32"
             >
-              <h2 className="text-white text-xl md:text-2xl font-bold mb-2">
+              <h2 className="text-orange-600 text-xl md:text-6xl font-bold mb-2">
                 {item.heading}
               </h2>
               <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 border-t-2 pt-6">
@@ -65,7 +65,7 @@ function SectionEight() {
                     ref={(el) => {
                       yearRefs.current[index] = el;
                     }}
-                    className={`text-white text-4xl md:text-6xl font-bold`}
+                    className={`text-black text-4xl md:text-6xl font-bold`}
                   >
                     {item.year}
                   </h1>
@@ -78,7 +78,7 @@ function SectionEight() {
                   alt="Arrow"
                   className="w-6 h-6 hidden sm:block"
                 />
-                <p className="text-white text-sm md:text-base">
+                <p className="text-black text-sm md:text-base">
                   {item.description}
                 </p>
               </div>
@@ -89,8 +89,8 @@ function SectionEight() {
 
       {/* Image Section */}
       <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
-        <Image height={500} width={500}
-          src="/images/ship.jpg"
+        <Image height={1000} width={1000}
+          src="/images/homeimage.jpeg"
           alt="Ship"
           className="w-full h-auto object-cover"
         />

@@ -53,9 +53,9 @@ function SectionTwo() {
           <Image
           width={500}
           height={500}
-            src="/images/image3.webp"
+            src="/images/homeimage.jpeg"
             alt="Fast Delivery"
-            className={`w-full h-auto rounded-lg shadow-lg animate-slide-in ${isMounted ? "" : "hidden"}`}
+            className={`w-full h-auto rounded-lg animate-slide-in ${isMounted ? "" : "hidden"}`}
           />
         </div>
       </div>

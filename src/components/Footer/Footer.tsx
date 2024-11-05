@@ -4,7 +4,7 @@ import React from "react";
 const footerData = [
   {
     type: "logo",
-    logo: "/images/logo.webp",
+    logo: "/images/logo_full.png",
     socialIcons: [
       { src: "/images/instagrams.svg", alt: "Instagram" },
       { src: "/images/fb.svg", alt: "Facebook" },
