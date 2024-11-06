@@ -12,7 +12,7 @@ function SectionTwo() {
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
-          sectionRef.current?.classList.add('animate');
+          sectionRef.current?.classList.add("animate");
         }
       },
       { threshold: 0.1 }
@@ -37,25 +37,63 @@ function SectionTwo() {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between">
         <div className="w-full lg:w-5/12 text-center lg:text-left p-4 sm:p-6">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4 sm:mb-6">
-            <span className={`inline-block ${isMounted ? "animate-bounce-1" : "hidden"}`}>Fast</span>{' '}
-            <span className={`inline-block ${isMounted ? "animate-bounce-2" : "hidden"}`}>Delivery</span>{' '}
-            <span className={`inline-block ${isMounted ? "animate-bounce-3" : "hidden"}`}>And</span>{' '}
-            <span className={`inline-block ${isMounted ? "animate-bounce-4" : "hidden"}`}>Secure</span>{' '}
-            <span className={`inline-block ${isMounted ? "animate-bounce-5" : "hidden"}`}>Packages</span>
+            <span
+              className={`inline-block ${
+                isMounted ? "animate-bounce-1" : "hidden"
+              }`}
+            >
+              Fast
+            </span>{" "}
+            <span
+              className={`inline-block ${
+                isMounted ? "animate-bounce-2" : "hidden"
+              }`}
+            >
+              Delivery
+            </span>{" "}
+            <span
+              className={`inline-block ${
+                isMounted ? "animate-bounce-3" : "hidden"
+              }`}
+            >
+              And
+            </span>{" "}
+            <span
+              className={`inline-block ${
+                isMounted ? "animate-bounce-4" : "hidden"
+              }`}
+            >
+              Secure
+            </span>{" "}
+            <span
+              className={`inline-block ${
+                isMounted ? "animate-bounce-5" : "hidden"
+              }`}
+            >
+              Packages
+            </span>
           </h1>
-          <p className={`text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 ${isMounted ? "animate-fade-in" : "hidden"}`}>
+          <p
+            className={`text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 ${
+              isMounted ? "animate-fade-in" : "hidden"
+            }`}
+          >
             Lorem ipsum dolor sit amet, id has nihil discere vocibus. No novum
             cu laborpro batus cum, te utamur scripta.
           </p>
-          <Button className={`animate-fade-in ${isMounted ? "" : "hidden"}`}>View More</Button>
+          <Button className={`animate-fade-in ${isMounted ? "" : "hidden"}`}>
+            View More
+          </Button>
         </div>
         <div className="w-full lg:w-6/12 mt-8 lg:mt-0 p-4 sm:p-6">
           <Image
-          width={500}
-          height={500}
+            width={500}
+            height={500}
             src="/images/homeimage.jpeg"
             alt="Fast Delivery"
-            className={`w-full h-auto rounded-lg animate-slide-in ${isMounted ? "" : "hidden"}`}
+            className={`w-full h-auto rounded-lg animate-slide-in ${
+              isMounted ? "" : "hidden"
+            }`}
           />
         </div>
       </div>

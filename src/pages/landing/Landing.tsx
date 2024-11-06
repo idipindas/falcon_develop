@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
+import PackageAndMovers from "@/components/PackageAndMovers/PackageAndMovers";
 import SectionEight from "@/components/sectionEight/SectionEight";
 import SectionFive from "@/components/sectionFive/SectionFive";
 import SectionFour from "@/components/sectionFour/SectionFour";
@@ -16,6 +17,7 @@ function Landing() {
     <div>
       <Slider />
       <SectionTwo />
+      <PackageAndMovers/>
       <SectionThree />
       <SectionFour />
       <SectionFive />
