@@ -20,8 +20,7 @@ const PackageAndMovers = () => {
     <>
       <div className="w-full lg:w-full text-center lg:text-center p-4 sm:p-6">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl  font-bold text-gray-800 mb-4 sm:mb-6">
-          Package And Movers
-        </h1>
+        FALCON PACKERS AND MOVERS        </h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-12 p-12">
         {/* Map over servicesData to create dynamic cards */}
