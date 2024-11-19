@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Button from "@/components/ui/Button";
 import Image from "next/image";
 
-function SectionTwo() {
+function OfficeRemovals() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [isMounted, setIsMounted] = useState(false); // State to check if the component is mounted
 
@@ -32,26 +32,38 @@ function SectionTwo() {
   return (
     <div
       ref={sectionRef}
-      className="bg-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-10 overflow-hidden"
+      className="bg-[#0f313a]    sm:py-12 md: px-4 sm:px-6 md:px-8 lg:px-10 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between">
+
+      <div className="w-full lg:w-6/12 mt-8 lg:mt-0 p-4 sm:p-6">
+          <Image
+            width={500}
+            height={500}
+            src="/images/office-removal.jpg"
+            alt="Fast Delivery"
+            className={`w-full h-auto rounded-lg animate-slide-in ${
+              isMounted ? "" : "hidden"
+            }`}
+          />
+        </div>
         <div className="w-full lg:w-5/12 text-center lg:text-left p-4 sm:p-6">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4 sm:mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6">
             <span
               className={`inline-block ${
                 isMounted ? "animate-bounce-1" : "hidden"
               }`}
             >
-              Fast
+              Office
             </span>{" "}
             <span
               className={`inline-block ${
                 isMounted ? "animate-bounce-2" : "hidden"
               }`}
             >
-              Delivery
+              Removals
             </span>{" "}
-            <span
+            {/* <span
               className={`inline-block ${
                 isMounted ? "animate-bounce-3" : "hidden"
               }`}
@@ -71,34 +83,24 @@ function SectionTwo() {
               }`}
             >
               Packages
-            </span>
+            </span> */}
           </h1>
           <p
-            className={`text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 ${
+            className={`text-base sm:text-lg text-white mb-6 sm:mb-8 ${
               isMounted ? "animate-fade-in" : "hidden"
             }`}
           >
-            Lorem ipsum dolor sit amet, id has nihil discere vocibus. No novum
-            cu laborpro batus cum, te utamur scripta.
+            Efficient and secure removal of household items. We pack and
+            transport with care.
           </p>
           <Button className={`animate-fade-in ${isMounted ? "" : "hidden"}`}>
             View More
           </Button>
         </div>
-        <div className="w-full lg:w-6/12 mt-8 lg:mt-0 p-4 sm:p-6">
-          <Image
-            width={500}
-            height={500}
-            src="/images/fast-delivery.jpg"
-            alt="Fast Delivery"
-            className={`w-full h-auto rounded-lg animate-slide-in ${
-              isMounted ? "" : "hidden"
-            }`}
-          />
-        </div>
+       
       </div>
     </div>
   );
 }
 
-export default SectionTwo;
+export default OfficeRemovals;

@@ -12,7 +12,7 @@ function SectionFour() {
         <Image
           width={1000}
           height={1000}
-          src="/images/homeimage.jpeg"
+          src="/images/contact-bg.jpg"
           alt="Inland Freight Background"
           className="w-full h-full object-cover"
         />
