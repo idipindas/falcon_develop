@@ -28,7 +28,7 @@ const Service = () => {
   }
 
   return (
-    <div className="bg-[#0f313a] py-16">
+    <div className="bg-[#0F1108] py-16">
       <div className="container mx-auto px-4">
         <div className="space-y-4">
           {serviceData.map((service, index) => (

@@ -32,9 +32,9 @@ function HouseRemovals() {
   return (
     <div
       ref={sectionRef}
-      className="bg-[#0f313a]  sm:py-12 md: px-4 sm:px-6 md:px-8 lg:px-10 overflow-hidden"
+      className="bg-[#0F1108]  sm:py-12 md: px-4 sm:px-6 md:px-8 lg:px-10 overflow-hidden"
     >
-        <div className="w-full lg:w-full text-center lg:text-center p-4 bg-[#0f313a] sm:p-6">
+        <div className="w-full lg:w-full text-center lg:text-center p-4 bg-[#0F1108] sm:p-6">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 mt-3 sm:mb-6">
           FALCON PACKERS AND MOVERS
         </h1>

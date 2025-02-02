@@ -28,7 +28,7 @@ const footerData = [
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0f313a] text-white py-8 px-4 sm:px-6 md:px-8 lg:px-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 h-auto">
+    <footer className="bg-[#0F1108] text-white py-8 px-4 sm:px-6 md:px-8 lg:px-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 h-auto">
       {footerData.map((section, index) => (
         <div 
           key={index} 

@@ -32,7 +32,7 @@ function OfficeRemovals() {
   return (
     <div
       ref={sectionRef}
-      className="bg-[#0f313a]    sm:py-12 md: px-4 sm:px-6 md:px-8 lg:px-10 overflow-hidden"
+      className="bg-[#0F1108]    sm:py-12 md: px-4 sm:px-6 md:px-8 lg:px-10 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between">
 

@@ -41,21 +41,21 @@ function SectionFour() {
       {/* Form Container */}
       <div className="relative z-10 w-full lg:w-1/2 p-4 sm:p-8 md:p-12 lg:p-16 flex items-center justify-center">
         <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-lg shadow-lg p-6 sm:p-8 md:p-10 lg:p-12 w-full max-w-md md:max-w-lg lg:max-w-xl">
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 md:mb-8 text-white">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 md:mb-8 text-[#0F1108]">
             Request a Free Quote
           </h2>
           <form className="space-y-4 sm:space-y-6 md:space-y-8">
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full p-2 sm:p-3 md:p-4 text-base md:text-lg border border-white rounded-md bg-white bg-opacity-20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-full p-2 sm:p-3 md:p-4 text-base md:text-lg border border-white rounded-md bg-white bg-opacity-20 text-[#0F1108] placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white"
             />
             <input
               type="tel"
               placeholder="Number"
-              className="w-full p-2 sm:p-3 md:p-4 text-base md:text-lg border border-white rounded-md bg-white bg-opacity-20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white"
+              className="w-full p-2 sm:p-3 md:p-4 text-base md:text-lg border border-white rounded-md bg-white bg-opacity-20 text-[#0F1108] placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white"
             />
-            <select className="w-full p-2 sm:p-3 md:p-4 text-base md:text-lg border border-white rounded-md bg-white bg-opacity-20 text-white focus:outline-none focus:ring-2 focus:ring-white">
+            <select className="w-full p-2 sm:p-3 md:p-4 text-base md:text-lg border border-white rounded-md bg-white bg-opacity-20 text-[#0F1108] focus:outline-none focus:ring-2 focus:ring-white">
               <option value="" disabled selected className="text-gray-800">
                 Select a service
               </option>

@@ -19,8 +19,8 @@ function Landing() {
     <div>
       <Slider />
       <SectionTwo />
-      <HouseRemovals/>
-      <OfficeRemovals/>
+      <HouseRemovals />
+      <OfficeRemovals />
       <SectionSeven />
 
       <SectionFour />

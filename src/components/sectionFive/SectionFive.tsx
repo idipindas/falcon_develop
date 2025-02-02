@@ -54,7 +54,7 @@ function SectionFive() {
   return (
     <section
       ref={sectionRef}
-      className="py-8 md:py-12 lg:py-20 px-4 md:px-8 lg:px-44 bg-[#0f313a] section"
+      className="py-8 md:py-12 lg:py-20 px-4 md:px-8 lg:px-44 bg-[#0F1108] section"
     >
       {/* Heading and Button Row */}
       <div className="flex flex-col sm:flex-row justify-between items-center mb-8 space-y-4 sm:space-y-0">
